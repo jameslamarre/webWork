@@ -1,0 +1,41 @@
+#daydreams {
+	font-size: 2000%;
+	font-style: italic;
+	font-family: arial, sans-serif;
+	color: white;
+	opacity: 0.6;
+	position: relative;
+	top: -10%;
+	left: 0%;
+	text-align: center;
+}
+
+#form {
+	font-size: 2000%;
+	font-style: italic;
+	font-family: arial, sans-serif;
+	color: white;
+	opacity: 0.6;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+#submit {
+	font-size: 2000%;
+	font-style: italic;
+	font-family: arial, sans-serif;
+	color: white;
+	opacity: 1.0;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}#content {
+	font-size: 4%;
+	font-style: italic;
+	font-family: arial, sans-serif;
+	color: white;
+	opacity: 1.0;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}

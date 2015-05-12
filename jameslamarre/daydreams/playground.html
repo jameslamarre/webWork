@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+
+	<!-- c l o u d i c o n --!>
+	<link REL="SHORTCUT ICON" href="http://jameslamarre.com/daydreams/favicon.ico"> 
+		
+	
+	<!-- m e t a d a t a ~ w h o o ! ~ --!> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="James La Marre" />
+	<meta name="description" content="daydreams" />
+	<meta name="keywords" content="artist, writer, art, writing, webdev, dev, apps, ios, books, readings, performance" />
+	
+		
+	<!-- dope title --!> 
+	<title>Daydreams</title>
+	
+	
+	<!-- c s s --!>
+	
+	<!-- global --!>
+	<link rel="stylesheet" type="text/css" href="../layout.css" />
+	<!-- local --!>
+	<link rel="stylesheet" type="text/css" href="daydreams.css" />
+
+
+</head>
+
+<body>
+
+	<!-- PHP LOGIN TO MYSQL DATABASE --!>
+
+	<?php
+		$hostname = "localhost";
+		$username = "root";
+		$password = "Daydream365*";
+		$dbname = "DAYDREAMS";
+
+		// Create connection
+		$con = mysql_connect($hostname,$username,$password);
+		// Check connection
+		if ($con->connect_error) {
+			 die("Connection failed: " . $con->connect_error);
+		} 
+
+#		$sql = "SELECT id, firstname, lastname FROM MyGuests";
+#		$result = $conn->query($sql);
+#
+#		if ($result->num_rows > 0) {
+#			 // output data of each row
+#			 while($row = $result->fetch_assoc()) {
+#				 echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
+#			 }
+#		} else {
+#			 echo "0 results";
+#		}
+
+#		$conn->close();
+	?>  
+	
+	<!-- potential randomizing code i found online --!>
+	
+	<?php
+		$result = mysql_query("SELECT * FROM `zgjzb_chronoforms_data_submitbusiness` ORDER BY     RAND() LIMIT 0,4;");
+		$row = mysql_fetch_array($result);
+		echo $row['businessname'];
+	?>
+	
+	<div id="background">
+	
+	
+		<div id="daydreams">
+	
+			daydreams
+			
+			<div id="form"> 
+			
+				<form>
+				
+					<input type="text" name="daydream" placeholder="daydream">
+					
+					
+					<div id="submit">
+						<input type="submit" value="submit">
+					</div>
+					
+				</form>
+			
+			</div>
+			
+	
+		</div>
+	
+	
+	</div>
+	
+</body>
+
+</html>
