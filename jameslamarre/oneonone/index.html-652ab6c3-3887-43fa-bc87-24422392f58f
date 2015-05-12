@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml-rdfa-2.xsd" xmlns:og="http://ogp.me/ns#" dir="ltr" lang="en-US">
+<head>
+
+<!--
+
+
+
+
+                       ** **            **     **  **  **               
+                      /**//            /**    //  /** /**               
+ ******  ******       /** **  ******   /**  ** ** /** /**  *****  ******
+//**//* //////**   ******/** **////**  /** ** /** /** /** **///**//**//*
+ /** /   *******  **///**/**/**   /**  /****  /** /** /**/******* /** / 
+ /**    **////** /**  /**/**/**   /**  /**/** /** /** /**/**////  /**   
+/***   //********//******/**//******   /**//**/** *** ***//******/***   
+///     ////////  ////// //  //////    //  // // /// ///  ////// ///   
+
+
+
+
+
+-->
+	<!-- w a v i c o n -->
+	<link REL="SHORTCUT ICON" href="favicon.ico" /> 
+	
+	<!-- cool title --> 
+	<title>One on One</title>
+		
+	<!-- m e t a d a t a ~ h a y n s a ~ --> 
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="One on One" />	
+	<meta property="og:description" content="Interview series with artists and writers working in, around, and through technology." />
+	<meta property="og:url" content="http://jameslamarre.com/oneonone/" />
+	<meta property="og:site_name" content="One on One" />
+	<meta property="og:determiner" content="A" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale:alternate" content="en_GB" />
+	<meta name="author" content="James La Marre" />
+	<meta name="description" content="Interview series between James La Marre and artists and writers working in, around, and through technology." />
+	<meta name="keywords" content="interview, artist, writer, art, writing, webdev, dev, apps, ios, books, readings, performance, podcase, oneonone, one on one" />
+	
+	<!-- g e r g l e -->
+	<meta name="google-site-verification" content="0n07qGPVzFx1dGw5clRls4kVf_tRIfUcQFuzwUtLqlQ" />
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-17066450-2', 'jameslamarre.com');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- fb tag req images -->
+	<meta property="og:image" content="http://jameslamarre.com/oneonone/oneononeIcon.png" />
+	<link rel="image_src" href="http://jameslamarre.com/oneonone/oneononeIcon.png" / >
+	
+	<!-- ******* C O N T E N T ******* --> 
+	
+	<!-- c s s --!>
+	<link rel="stylesheet" type="text/css" href="layout.css" />
+
+	<!-- mobile button handling --> 
+	
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	
+	
+	<!-- ****** E N D C O N T E N T *****-->
+	
+</head>
+
+
+<body> 
+	
+	<div id="title">
+	
+		one-on-one	<br />		
+		<button type="button"><a href="https://itunes.apple.com/us/podcast/one-on-one/id969857898?mt=2&uo=4" target="itunes_store">podcast (itunes)</a></button>
+	
+	</div>
+
+<!--	<div id="radio-killer-coming-soon">
+
+		#2 Viktor Timofeev <br />		
+		Coming Soon
+
+	</div> <br/>
+	
+-->
+
+<br />
+
+	<div id="radio-killer">
+			
+		<audio id="viktor"> 
+		  	<source src="ViktorTimofeev_February11_Peckham_edited.mp3">
+			Your browser does not support the audio element.
+		</audio>
+		
+		#2 Viktor Timofeev <br />		
+		On: Proxyah 2.0 <br />
+		February 2015 | 00:24:11 <br />		
+		
+			<div id="buttons"> 
+				
+				<button type="button" onclick="aud_play_pause2()">play/pause</button>
+				<script>
+					function aud_play_pause2() {
+					  var myAudio2 = document.getElementById("viktor");
+					  if (myAudio2.paused) {
+						myAudio2.play();
+					  } else {
+						myAudio2.pause();
+					  }
+					}
+				</script>
+		
+				<button type="button"><a href="http://viktortimofeev.com/proxyah/index.html" target="_blank">jupiter woods installation</a></button>
+								
+				<!-- desktop only download button --!>
+				
+				<div id="download">
+			
+					<button type="button"><a href="ViktorTimofeev_February11_Peckham_edited.mp3" download="ViktorTimofeev_February11_Peckham_edited.mp3">download</a></button>
+		
+				</div>
+			
+			</div>
+	
+	</div> <br />
+		
+	<div id="radio-killer">
+			
+		<audio id="harry"> 
+		  	<source src="harrySanderson_feb5_jupiterWoods.mp3">
+			Your browser does not support the audio element.
+		</audio>
+		
+		#1 Harry Sanderson <br />		
+		On: We Are The Human Network (smoke rare-earth petal) <br />
+		February 2015 | 00:26:10 <br />		
+		
+			<div id="buttons"> 
+				
+				<button type="button" onclick="aud_play_pause()">play/pause</button>
+				<script>
+					function aud_play_pause() {
+					  var myAudio = document.getElementById("harry");
+					  if (myAudio.paused) {
+						myAudio.play();
+					  } else {
+						myAudio.pause();
+					  }
+					}
+				</script>
+		
+				<button type="button"><a href="http://cellprojects.org/harry-sanderson" target="_blank">cell project installs</a></button>
+								
+				<!-- desktop only download button --!>
+				
+				<div id="download">
+			
+					<button type="button"><a href="harrySanderson_feb5_jupiterWoods.mp3" download="Harry_Sanderson_One-on-One.mp3">download</a></button>
+		
+				</div>
+			
+			</div>
+	
+	</div>
+
+	<br />
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

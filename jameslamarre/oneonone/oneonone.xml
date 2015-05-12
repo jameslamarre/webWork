@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+    <title>One on One</title>
+<link>http://www.jameslamarre.com/oneonone/</link>
+<description>One on one conversations between James La Marre and artists working in, around, and through fields of digital technology.</description>
+    <language>en-us</language>
+     <copyright>James La Marre 2015</copyright>
+    <lastBuildDate>Sunday, 21 Feb 2015 16:32:00 GMT</lastBuildDate>
+    <itunes:author>James La Marre</itunes:author>
+    <itunes:summary>One on one conversations between James La Marre and artists working in, around, and through fields of digital technology.</itunes:summary>
+    <itunes:owner>
+        <itunes:name>James La Marre</itunes:name>
+        <itunes:email>jameslamarre@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:image href="http://jameslamarre.com/oneonone/oneononeIcon.png"/>
+    <itunes:category text="Arts"/>
+    <itunes:category text="Technology"/>
+    
+    <item>
+		<title>Harry Sanderson</title>
+		<link>http://jameslamarre.com/oneonone/harrySanderson_feb5_jupiterWoods.mp3</link>
+		<pubDate>Sun, 21 Feb 2015 16:40:00 GMT</pubDate>
+		<description>On: We Are The Human Network (smoke rare-earth petal) </description>
+		<enclosure url="http://jameslamarre.com/oneonone/harrySanderson_feb5_jupiterWoods.mp3" length="25100000" type="audio/mpeg"/>
+		<itunes:summary>Our first interview is with Harry Sanderson during his stay at Jupiter Woods in London, over on Rollins Street. Besides us talking, you’ll hear the background hum of the space and Viktor Timofeev, subject of a forthcoming interview’s installation which occupied the gallery at the time. In this interview, Harry and I get into origins of his work, the vocabulary surrounding his newest pieces as well as some of the obsessions fueling his production.</itunes:summary>
+		<itunes:image href="http://jameslamarre.com/oneonone/oneononeIcon.png"/>
+		<itunes:duration>26:10</itunes:duration>
+	</item>
+	
+    <item>
+		<title>Viktor Timofeev</title>
+		<link>http://jameslamarre.com/oneonone/ViktorTimofeev_February11_Peckham_edited.mp3</link>
+		<pubDate>Sun, 8 Mar 2015 13:30:00 GMT</pubDate>
+		<description>On: Proxyah 2.0 </description>
+		<enclosure url="http://jameslamarre.com/oneonone/ViktorTimofeev_February11_Peckham_edited.mp3" length="23200000" type="audio/mpeg"/>
+		<itunes:summary>In our second conversation, I speak with Victor Timofeev in Peckham, London, during the time his interactive show Proxyah 2.0 had been up at Jupiter Woods. We get into some details of the show, documentation of which is linked out from the one on one site jameslamarre.com/oneonone or through Viktor’s site viktortimofeev.com. and later on we hear some of Viktor’s thoughts on gaming, improvisation, and art production. We also get a bit into coding, using Unity to create work as well as environmental and digital mediation through Heads Up Displays (HUDs). </itunes:summary>
+		<itunes:image href="http://jameslamarre.com/oneonone/oneononeIcon.png"/>
+		<itunes:duration>24:11</itunes:duration>
+	</item>		
+	
+    <item>
+		<title>Erica Scourti</title>
+		<link>http://jameslamarre.com/oneonone/ericaScourti_whiteBuilding_March27.mp3</link>
+		<pubDate>Sun, 29 Mar 2015 13:15:00 GMT</pubDate>
+		<description>Medi(t)ation, Metadata, and Visibility </description>
+		<enclosure url="http://jameslamarre.com/oneonone/ericaScourti_whiteBuilding_March27.mp3" length="25600000" type="audio/mpeg"/>
+		<itunes:summary>In this episode, I sit down with Erica Scourti in Hackney Wick and dive into a conversation about mediation and modulation, the visibility of metadata, and the (im)possibility of directness through channels. Erica's work utilizes social media platforms to actualize art objects on and off the screen, and features a performativity these platforms can each uniquely provide. We also speak a bit on meditation, and how it can figure into the many-layered networks that so prominently figure in this contemporary condition. *NOTE* This recording is quieter than usual -- use headphones recommended!</itunes:summary>
+		<itunes:image href="http://jameslamarre.com/oneonone/oneononeIcon.png"/>
+		<itunes:duration>26:42</itunes:duration>
+	</item>	
+    
+</channel>
+</rss>
