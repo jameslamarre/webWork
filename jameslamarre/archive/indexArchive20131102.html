@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link REL="SHORTCUT ICON" href="http://jameslamarre.com/favicon.ico"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="personal website" content="James La Marre" />
+	<meta name="google-site-verification" content="0n07qGPVzFx1dGw5clRls4kVf_tRIfUcQFuzwUtLqlQ" />
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-17066450-2', 'jameslamarre.com');
+	  ga('send', 'pageview');
+
+	</script>	
+	<title>J. C. La Marre // Personal Website + CV</title>
+
+	<link rel="stylesheet" type="text/css" href="http://jameslamarre.com/layout.css" />
+
+	<script type='text/javascript'>
+		/*-------------------------------------------------------------------------------------------------
+		changeSection()
+		-------------------------------------------------------------------------------------------------*/
+		function changeSection(whichSection) {
+		
+			// Find out what the active section is
+			var activeSection = document.getElementById("activeSection").value;
+			
+			// Turn off (display:none) that active section
+			document.getElementById(activeSection).style.display = "none";
+			
+			// Turn on the chosen section
+			document.getElementById(whichSection).style.display = "block";
+			
+			// Store this as the new active section
+			document.getElementById("activeSection").value = whichSection;
+		}
+
+	</script>
+		
+	<script type='text/javascript'>
+		path = 'http://www.jameslamarre.com/files/gimgs/';
+		
+		$(document).ready(function()
+		{
+			setTimeout('move_up()', 1);
+		});
+	</script>
+
+	<script type="text/javascript" src="http://www.twospy.com/galleriffic/js/jquery.galleriffic.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js"></script>
+	<script type="text/javascript" src="http://jameslamarre.com/web1/projects/slimbox/slimbox.js"></script>
+	<!--<script type="text/javascript" src="http://jameslamarre.com/js/jquery.js"></script>
+	<script type="text/javascript" src="http://jameslamarre.com/js/jquery.cycle.all.js"></script>--!>
+	<link rel="stylesheet" href="http://jameslamarre.com/web1/projects/slimbox/slimbox.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+	<!--#include virtual="header.html" -->
+<div style='position:absolute; top:80px;'>
+	<h1><input type='hidden' id='activeSection' value='section1'>
+<!-- MENU -->
+	<a href='javascript:void(0)' onClick='changeSection("section1")'>/apps</a><br/>
+	<!--<a href='javascript:void(0)' onClick='changeSection("section2")'>/mixed media</a><br/>--!>
+	<!--<a href='javascript:void(0)' onClick='changeSection("section3")'>/posters</a><br/>
+	<a href='javascript:void(0)' onClick='changeSection("section4")'>/mixed media</a><br/>--!>
+	<a href='javascript:void(0)' onClick='changeSection("section4")'>/readings</a><br/>
+	<a href='javascript:void(0)' onClick='changeSection("section5")'>/books</a><br/>
+	<a href='javascript:void(0)' onClick='changeSection("section6")'>/contact + cv</a><br/><br/>
+	<a href='http://twitter.com/jameslamarre'>@jameslamarre</a><br/></h1>
+	<!--<div style='background-color:#FFFFFF; color:#000000; position:absolute; top:210px; left:5px; height:175px; width:225px;'><p class='text'>
+
+	</div>--!>
+<!-- SECTIONS -->
+	<div id='sectionsContainer' style='background color:white; display:inline-block; width:110%; height:95%; position:absolute; top:14px; left:150px; border:0px solid black'>
+	
+		<div id='section1' style='border:1px; width:500px; height:100%; position:absolute; top:0px; left:0px'><p style='font-family:arial'>
+			"Discrete Res" by Jesse Harding and James La Marre (coming soon)</br>
+			<a href='https://itunes.apple.com/us/app/twelve-by-ann-hirsch-preview/id699859497?ls=1&mt=8'>"Twelve" by Ann Hirsch (2013) </a><br/>
+		</p></div>
+		
+<!--
+	<div id='sectionsContainer' style='background color:white; display:inline-block; width:110%; height:95%; position:absolute; top:14px; left:150px; border:0px solid black'>
+	
+		<div id='section2' style='border:1px; width:400px; height:100%; position:absolute; top:0px; left:0px'>
+			<a href='http://jameslamarre.com/images/regis.jpg' rel='lightbox'><img border=0 title='By Regis Bonvicino, designed and printed by James La Marre; 2009' src='http://jameslamarre.com/images/regis.jpg' style='width:250px; height:325px;' class="float:left"/></a>
+		<div id='section2' style='width:400px; height:100%; position:absolute; top:0px; left:300px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/wing-ver.jpg'rel='lightbox'><img border=0 title='Wing by Kathleen Fraser, printed and designed by James La Marre; 2009' src='http://jameslamarre.com/images/wing-ver.jpg' style='width:250px; height:325px;' class="float:right"/></a>
+		<div id='section2' style='width:400px; height:100%; position:absolute; top:0px; left:300px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/river.jpg'rel='lightbox'><img border=0 title='River, designed and printed by James La Marre; 2008' src='http://jameslamarre.com/images/river.jpg' style='width:250px; height:325px;' class="float:right"/></a>
+		<div id='section2' style='width:400px; height:300px; position:absolute; top:340px; left:-600px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/warren.jpg'rel='lightbox'><img border=0 title='I Am Dreaming by Robert Penn Warren, designed and printed by James La Marre & Henry Steinberg; 2010' src='http://jameslamarre.com/images/warren.jpg' style='width:250px; height:175px;' class="float:right"/></a>
+		<div id='section2' style='width:400px; height:300px; position:absolute; top:0px; left:300px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/midnight.jpg'rel='lightbox'><img border=0 title='Midnight by Susan Howe, designed and printed by James La Marre; 2010' src='http://jameslamarre.com/images/midnight.jpg' style='width:250px; height:325px;' class="float:right"/></a>
+		</div>
+		<div id='section2' style='width:400px; height:300px; position:absolute; top:0px; left:600px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/monet-ver.jpg'rel='lightbox'><img border=0 title='Monets Garden by Burt Kimmelman, designed and printed by James La Marre; 2010' src='http://jameslamarre.com/images/monet-ver.jpg' style='width:250px; height:325px;' class="float:right"/></a>
+		<div id='section2' style='width:400px; height:300px; position:absolute; top:-340px; left:300px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/ca.jpg'rel='lightbox'><img border=0 title='Monets Garden by Burt Kimmelman, designed and printed by James La Marre; 2010' src='http://jameslamarre.com/images/ca.jpg' style='width:250px; height:325px;' class="float:right"/></a>
+		<div id='section2' style='width:200px; height:250px; position:absolute; top:340px; left:4px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/bbq.jpg'rel='lightbox'><img border=0 title='Pilam Human Barbeque XXXII; Designed by Grace Ambrose, printed by James La Marre; 2010' src='http://jameslamarre.com/images/bbq.jpg' style='width:250px; height:325px;' class="float:right"/></a>
+		<div id='section2' style='width:200px; height:250px; position:absolute; top:-340px; left:300px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/smile.jpg' rel='lightbox'><img border=0 title='Pilam Flyer; designed by James La Marre; 2009' src='http://jameslamarre.com/images/smile.jpg' alt='Pilam Flyer' style='width:250px; height:325px;' class="float:right"/></a>
+		</div>
+		<div id='section2' style='width:200px; height:250px; position:absolute; top:0px; left:300px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/popos.jpg' rel='lightbox'><img border=0 title='Poem Posters: Designed and printed by Kaegan Sparks and James La Marre; 2009' src='http://jameslamarre.com/images/popos.jpg' alt='Poem Posters: Designed and printed by Kaegan Sparks and James La Marre; 2009' style='width:250px; height:400px;'/></a>
+		</div>
+		<div id='section2' style='width:200px; height:250px; position:absolute; top:-340px; left:600px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/pains2.jpg' rel='lightbox'><img border=1 title='Pilam Flyer, designed by James La Marre; 2010' src='http://jameslamarre.com/images/pains2.jpg' alt='Pilam Flyer, designed by James La Marre; 2010' style='width:250px; height:325px;'/></a>
+		</div>
+		<div id='section2' style='width:200px; height:250px; position:absolute; top:0px; left:600px' class='float:right;'>
+			<a href='http://jameslamarre.com/images/concona.jpg' rel='lightbox'><img border=0 title='Con Con by Cecilia Vicuna, part of a series of two printed by James La Marre; 2011' src='http://jameslamarre.com/images/concona.jpg' alt='Con Con by Cecilia Vicuna, part of a series of two printed by James La Marre; 2011' style='width:250px; height:325px;'/></a>
+		</div></div></div></div>
+		</div></div></div></div>
+--!>	
+<!--
+		<div id='section3' style='display:none; width:200px; height:300px; position:absolute; top:0px; left:0px'>
+			<a href='http://jameslamarre.com/images/pains2.jpg' rel='lightbox'><img border=1 title='Pilam Flyer, designed by James La Marre; 2010' src='http://jameslamarre.com/images/pains2.jpg' alt='Pilam Flyer, designed by James La Marre; 2010' style='width:200px; height:250px;'/></a>
+		</div>
+	
+		<div id='section4' style='display:none; width:200px; height:150px; position:absolute; top:0px; left:0px; z-index:1;'>
+			<a href='http://jameslamarre.com/images/circle-one.jpg'rel='lightbox'><img border=1 title='Circle One; ink drawing; 2009' src='http://jameslamarre.com/images/circle-one.jpg' style='width:200px; height:150px;' class="float:right"/></a>	
+		<div id='section4' style='background-color:white; width:200px; height:150px; position:absolute; top:0px; left:210px; z-index:2;'>
+			<a href='http://jameslamarre.com/images/poetics.jpg' rel='lightbox'><img border=0 title='Poetics; digital grid; 2009' src='http://jameslamarre.com/images/poetics.jpg' alt='grid' style='width:200px; height:150px;'/></a>
+		<div id='section4' style='width:200px; height:200px; position:absolute; top:0px; left:210px; z-index:3;'>
+			<a href='http://jameslamarre.com/images/seal.jpg' rel='lightbox'><img border=0 title='Seal; ink on paper; 2008' src='http://jameslamarre.com/images/seal.jpg' alt='Seal' style='width:200px; height:200px;'/></a>
+		<div id='section4' style='width:150px; height:200px; position:absolute; top:210px; left:-420px; z-index:4;'>
+			<a href='http://jameslamarre.com/images/concona.jpg' rel='lightbox'><img border=0 title='Con Con by Cecilia Vicuna, part of a series of two printed by James La Marre; 2011' src='http://jameslamarre.com/images/concona.jpg' alt='Con Con by Cecilia Vicuna, part of a series of two printed by James La Marre; 2011' style='width:150px; height:200px;'/></a>
+		<div id='section4' style='width:150px; height:200px; position:absolute; top:0px; left:160px; z-index:5;'>
+			<a href='http://jameslamarre.com/images/conconb-ver.jpg' rel='lightbox'><img border=0 title='Con Con by Cecilia Vicuna, part of a series of twp printed by James La Marre; 2011' src='http://jameslamarre.com/images/conconb-ver.jpg' alt='Con Con by Cecilia Vicuna, print by James La Marre; 2011' style='width:150px; height:200px;'/></a>
+		<div id='section4' style='width:200px; height:100px; position:absolute; top:0px; left:160px; z-index:6;'>
+			<a href='http://jameslamarre.com/images/booty.jpg' rel='lightbox'><img border=0 title='Roy G. Booty; silkscreen; 2009' src='http://jameslamarre.com/images/booty.jpg' alt='Roy G. Booty; silkscreen; 2009' style='width:200px; height:100px;'></a></div>
+		</div></div></div></div></div>
+--!>
+		<div id='section4' style='display:none; width:600px; height:450px; position:absolute; top:0px; left:0px'><p style='font-family:arial; font-color:black'>
+				Upcoming/</br>
+				Atlas Reading Series/ November 2013</br>
+				<a href='https://www.facebook.com/events/475514852546957/'>"Believers" by Andrew Durbin Launch/ October 26, 2013</a></br></br>
+				Past/</br>
+				Principal Hand Presents/ l'Etage Philadelphia April 2013</br>
+				Steve Roggenbuck + Friends at Stadium NYC/ Livestreamed June 2012</br>
+				<a href='http://www.youtube.com/watch?v=TJL1Wzm-P6k'>Reading from "Songs to Joannes" by Mina Loy/ Kelly Writers House 2010</a></br>
+				<!--<iframe width="600" height="450"
+				src="http://www.youtube.com/embed/TJL1Wzm-P6k">
+				</iframe>--!>
+				<a href='http://media.sas.upenn.edu/pennsound/authors/La-Marre/La-Marre-James_Whenever-We-Feel-Like-It_KWH-UPenn_09-12-2009.mp3'>Whenever We Feel Like It/ Kelly Writers House 2009 (Audio link)</a>
+		</p></div>
+		<div id='section4' style='display:none; width:400px; height:50px; position:absolute; top:500px; left:700px'><p style='font-family:arial'>
+				
+		</p></div>
+		<!--<div id='section4' style='display:none; width:200px; height:300px; position:absolute; top:200px; left:625px'>
+				<iframe src="http://media.sas.upenn.edu/service.php?action=embed&file_id=81589&width=600&height=474&autoplay=false&start=0" 
+				width="650" height="474" frameborder="0"></iframe>
+		</div>
+		--!>
+		<div id='section5' style='display:none; color:white; width:500px; height:100%; position:absolute; top:0px; left:0px'><p style='font-family:arial'>
+			<a href='http://jameslamarre.com/artists-books/somewhere/'>somewhere out west (2011) </a><br/><br/>
+				<a href='http://jameslamarre.com/artists-books/this-is/'>This Is Everyday (2009) </a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://jameslamarre.com/artists-books/this-is/distortion/'>Distortion</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://jameslamarre.com/artists-books/this-is/but/'>But</a><br/>		
+		</p></div>
+	
+		<div id='section6' style='background-color:white; display:none; width:390px; height:500px; position:absolute; top:0px; left:0px;'>
+			
+					<a href='http://jameslamarre.com/cv/la-marre_resume.pdf'>
+						<img src='paperIcon.jpg' align='left' style='width:28px; height:35px; padding:8px;'></img>
+						<h2>
+							resume (pdf)
+						</h2>
+					</a>
+					
+			
+			<!-- change background colors to #000000, remove z-index, and add content--!>
+			<div style='background-color:#FFFFFF; color:black; z-index:9999; width:400px; height:450px; position:absolute; top:60px; left:0px;'>
+				<p>
+					<h3>
+						education
+					</h3>
+				</p>
+				<h4>
+					University of Pennsylvania // Class of 2011<br/>
+					English Major; Creative Writing Concentration<br/>
+					Art History Minor<br/>
+				</h4>
+				<p>
+				<h3>
+					internships
+				</h3>
+				</p>
+					<h4>
+						Granary Books	// 6.2010-9.2010<br/>
+						RealArts Intern<br/>
+						<a href='http://www.granarybooks.com/'>granarybooks.com</a>
+						<br/><br/>
+						Ugly Duckling Presse // 6.2009-9.2009<br/>
+						Summer Intern<br/>
+						<a href='http://www.uglyducklingpresse.com/'>uglyducklingpresse.org</a>
+						<br/><br/>
+						
+						Spiral Q Puppet Studio // 6.2008-8.2008<br/>
+						Studio Intern<br/>
+						<a href='http://www.spiralq.org/'>spiralq.org</a>
+					</h4>
+				<br/><br/><br/><br/><h3>jameslamarre at gmail</h3>
+			</div>
+			<div style='background-color:#FFFFFF; color:black; z-index:9999; width:400px; height:300px; position:absolute; top:0px; left:415px;'>
+				<p style="font-family: arial, san-serif; font-size:14pt;"><h3>employment</h3></p>
+				<h4>
+					Scrollmotion, Inc. // 8.2011-Present<br/>
+					Front-End Developer <br/>
+					<a href='http://scrollmotion.com/'>scrollmotion.com</a>
+					<br/><br/>
+					UbuWeb // 6.2011-8.2011<br/>
+					Web Editor<br/>
+					<a href='http://www.ubu.com/'>ubuweb.com</a>
+					<br/><br/>
+					Kelly Writers House // 9.2007-5.2011<br/>
+					Program Assistant // Sound Engineer // Librarian<br/>
+					<a href='http://www.writing.upenn.edu/wh/'>writing.upenn.edu/wh</a>
+					<br/><br/>
+					PennSound // 4.2008-8.2011<br/>
+					Recording Director<br/>
+					<a href='http://www.poemtalkatkwh.blogspot.com/'>
+						poemtalkatkwh.blogspot.com
+					</a> &<br/><a href='http://www.writing.upenn.edu/pennsound/'>writing.upenn.edu/pennsound</a>
+					<br/><br/>Center for Programs in Contemporary Writing // 6.2008-9.2008 //<br/>
+					6.2009-9.2009<br/>
+					Administrative Assistant<br/>
+					<a href='http://www.writing.upenn.edu/'>writing.upenn.edu</a>
+				</h4>
+			</div>
+			<div style='background-color:#FFFFFF; color:black; z-index:9999; width:600px; height:200px; position:absolute; top:0px; left:850px;'>
+				<p style="font-family: arial, san-serif; font-size:14pt;"><h3>web experience: HTML // CSS // javascript</h3></p><h4>Kelly Writers House: web calendar editor // <a href='http://writing.upenn.edu/wh/calendar/0411.php'>writing.upenn.edu/wh/calendar</a><br/>Pennsound: Freelance Web Editor // <a href='http://www.writing.upenn.edu/pennsound/'>writing.upenn.edu/pennsound</a><br/>Ubuweb: Freelance Web Editor // <a href='http://ubu.com/'>ubu.com</a></h4>
+
+			</div>
+				<!-- <div style='position:absolute; width:300px; height:400px; top:0px; left:410px; color:white'>
+			 	</div> --!>
+
+		</div>
+	</div>
+</div>
+</body>
+
+</html>

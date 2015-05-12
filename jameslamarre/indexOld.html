@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link REL="SHORTCUT ICON" href="http://jameslamarre.com/favicon.ico"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="personal website" content="James La Marre" />
+	<meta name="google-site-verification" content="0n07qGPVzFx1dGw5clRls4kVf_tRIfUcQFuzwUtLqlQ" />
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-17066450-2', 'jameslamarre.com');
+	  ga('send', 'pageview');
+
+	</script>	
+	<title>J. C. La Marre</title>
+
+	<link rel="stylesheet" type="text/css" href="http://jameslamarre.com/layout.css" />
+
+	<script type='text/javascript'>
+		/*-------------------------------------------------------------------------------------------------
+		changeSection()
+		-------------------------------------------------------------------------------------------------*/
+		function changeSection(whichSection) {
+		
+			// Find out what the active section is
+			var activeSection = document.getElementById("activeSection").value;
+			
+			// Turn off (display:none) that active section
+			document.getElementById(activeSection).style.display = "none";
+			
+			// Turn on the chosen section
+			document.getElementById(whichSection).style.display = "block";
+			
+			// Store this as the new active section
+			document.getElementById("activeSection").value = whichSection;
+		}
+
+	</script>
+		
+	<script type='text/javascript'>
+		path = 'http://www.jameslamarre.com/files/gimgs/';
+		
+		$(document).ready(function()
+		{
+			setTimeout('move_up()', 1);
+		});
+	</script>
+</head>
+
+<body>
+	<!--#include virtual="header.html" -->
+<div style='position:absolute; top:80px;'>
+	<h1><input type='hidden' id='activeSection' value='section1'>
+	
+<!-- MENU SETUP -->
+	<a href='javascript:void(0)' onClick='changeSection("section1")'>/apps</a><br/>
+	<a href='javascript:void(0)' onClick='changeSection("section3")'>/writing</a><br/>
+	<a href='javascript:void(0)' onClick='changeSection("section4")'>/readings</a><br/>
+	<a href='javascript:void(0)' onClick='changeSection("section5")'>/books</a><br/>
+	<a href='javascript:void(0)' onClick='changeSection("section6")'>/info</a><br/><br/>
+	<!--<a href='http://twitter.com/jameslamarre'>@jameslamarre</a><br/>--!></h1>
+	
+<!-- SECTIONS -->
+
+	<div id='sectionsContainer' style='background color:white; display:inline-block; width:110%; height:95%; position:absolute; top:0px; left:150px; border:0px solid black'>
+	
+		<div id='section1' style='border:1px; width:500px; height:100%; position:absolute; top:0px; left:10px'><p style='font-family:arial'>
+			<a href='https://itunes.apple.com/us/app/discrete-res/id740105252?ls=1&mt=8'>"Discrete Res" by Jesse Harding and James La Marre (2013) </a></br></p>
+			<p style='font-family:arial'>"Twelve" by Ann Hirsch (2013, removed from app store) Reviews:<br/>
+			<div style='position:relative; left:50px; top:-10px;'><p style='font-family:arial'>
+				<a href='http://nymag.com/thecut/2013/11/artist-ann-hirsch-recreates-aol-cybersex.html'>New York Magazine</a><br>
+				<a href='http://artforum.com/words/id=43319'>Art Forum</a><br>
+				<a href='http://www.blackbookmag.com/ann-hirsch-turns-90s-web-chat-into-performance-art/'>BlackBook Magazine</a><br>
+			</p></div>
+		</p></div>
+
+		<div id='section3' style='display:none; border:1px; width:500px; height:100%; position:absolute; top:0px; left:10px'><p style='font-family:arial'>
+			<a href='http://brooklynrail.org/2014/06/poetry/daydream'>~ selections from Daydreams in the Brooklyn Rail </a></br></br>
+			<a href='http://dismagazine.com/author/james-la-marre/'>~ author page on DIS Magazine </a></br>
+		</p></div>		
+
+		<div id='section4' style='display:none; width:600px; height:450px; position:absolute; top:0px; left:10px'><p style='font-family:arial; font-color:black'>
+				Upcoming/</br>
+				TBA</br></br>
+				Past/</br>
+				<a href='https://www.facebook.com/events/825411460808329/'>Private Party/ March 7th 2014 </a></br>
+				<a href='https://www.facebook.com/events/309453162527577/'>Atlas Reading Series/ November 13 2013</a></br>
+				<a href='https://www.facebook.com/events/475514852546957/'>"Believers" by Andrew Durbin Launch/ October 26, 2013</a></br>
+				Principal Hand Presents/ l'Etage Philadelphia April 2013</br>
+				Steve Roggenbuck + Friends at Stadium NYC/ Livestreamed June 2012</br>
+				<a href='http://www.youtube.com/watch?v=TJL1Wzm-P6k'>Reading from "Songs to Joannes" by Mina Loy/ Kelly Writers House 2010</a></br>
+				<!--<iframe width="600" height="450"
+				src="http://www.youtube.com/embed/TJL1Wzm-P6k">
+				</iframe>--!>
+				<a href='http://media.sas.upenn.edu/pennsound/authors/La-Marre/La-Marre-James_Whenever-We-Feel-Like-It_KWH-UPenn_09-12-2009.mp3'>Whenever We Feel Like It/ Kelly Writers House 2009 (Audio link)</a>
+		</p></div>
+		<div id='section4' style='display:none; width:400px; height:50px; position:absolute; top:500px; left:700px'><p style='font-family:arial'>
+				
+		</p></div>
+
+		<div id='section5' style='display:none; color:white; width:500px; height:100%; position:absolute; top:0px; left:10px'><p style='font-family:arial'>
+			<a href='http://jameslamarre.com/artists-books/somewhere/'>somewhere out west (Robinson Press, 2011) </a><br/><br/>
+				<a href='http://jameslamarre.com/artists-books/this-is/'>This Is Everyday (Common Press, 2009) </a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://jameslamarre.com/artists-books/this-is/distortion/'>Distortion</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://jameslamarre.com/artists-books/this-is/but/'>But</a><br/>		
+		</p></div>
+	
+		<div id='section6' style='background-color:white; display:none; width:390px; height:500px; position:absolute; top:0px; left:10px;'>
+	<!--		
+					<a href='http://jameslamarre.com/cv/la-marre_resume.pdf'>
+						<img src='paperIcon.jpg' align='left' style='width:28px; height:35px; padding:8px;'></img>
+						<h2>
+							resume (pdf)
+						</h2>
+					</a>
+	--!>				
+			
+			<!-- change background colors to #000000, remove z-index, and add content--!>
+			
+			<div style='background-color:#FFFFFF; color:black; z-index:9999; width:400px; height:450px; position:absolute; top:0px; left:0px;'>
+				<!--<p style='font-family:arial'>	
+				education
+				</p>
+				<p style='font-family:arial'>
+					University of Pennsylvania '11<br/>
+					English Major; Creative Writing Concentration<br/>
+					Art History Minor<br/>
+				</p>
+				<p style='font-family:arial'>
+				current employment
+				</p>
+				<p style='font-family:arial'>
+					Scrollmotion, Inc. // October 2011-Present<br/>
+					Director of Front-End Development <br/>
+					<a href='http://scrollmotion.com/'>scrollmotion.com</a>
+				</p>	--!>			
+				<p style='font-family:arial'>
+				jameslamarre at gmail
+				</p>
+				<p style='font-family:arial'>
+				<a href='http://twitter.com/jameslamarre'>@jameslamarre</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>

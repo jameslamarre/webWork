@@ -1,0 +1,90 @@
+div#header{
+  position:fixed;
+  top:10px;
+  left:0px;
+  width:100%;
+  background-color:#ffffff;
+	}
+body {
+ 	color:black;
+	background-color:#FFFFFF;
+	}
+.text { 
+	font-family: arial; sans-serif; 
+	font-size: 12pt; 
+	font-style: regular; 
+	}
+h1 {
+	color:#000000;
+	font-family: arial, sans-serif;
+	font-size: 14pt;
+	font-style: regular;
+	background-color:#A0D5DE;
+	}
+h2 {
+	color:#000000;
+	font-style: regular;
+	font-family: arial, sans-serif;
+	}
+h3 {
+	color:#000000;
+	font-style: regular;
+	font-family: arial, sans-serif;
+	}
+h4 {
+	color:#000000;
+	font-style: normal;
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	}
+a:link { 
+	color: #000000;
+	text-decoration: none;
+	}
+a:visited { 
+	color: #000000;
+	}
+a:hover { 
+	color: black;
+	text-decoration: underline;
+	background-color:#A0D5DE;
+	}
+a:active { 
+	color: #000000;
+	}
+#container {
+	margin: 0 auto;
+	width: 600px;
+	background:#000;
+	}
+#content {
+	clear: left;
+	padding: 20px;
+	top:100px;
+}
+div#name {
+	font-size: 30pt;
+	font-family: arial, sans-serif;
+	color: red;
+	position: absolute;
+}
+div#name:hover {
+	font-size: 30pt;
+	font-family: arial, sans-serif;
+	color: red;
+	position: absolute;
+	background-color:#A0D5DE;
+}
+div#last {
+	color: #000000;
+	font-size: 30pt;
+	font-family: arial, sans-serif;
+	position: relative;
+	float: right;
+}
+div#firstNameSomewhere {
+	color: #20BF9F;
+	font-size: 30pt;
+	font-family: arial, sans-serif;
+	position: absolute;
+}
