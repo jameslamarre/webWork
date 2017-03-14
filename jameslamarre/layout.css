@@ -1,16 +1,21 @@
+
 html, body {
-	height: 110%;
-	width: 100%;
+	display: block;
 	padding: 0;
 	margin: 0;
-	font-size: 12pt;
-	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-family: helvetica, sans-serif;
+	font-style: italic;
 	color: black;
-	position: relative;
+	white-space: nowrap;
 }
-	
+
+body {
+	opacity: 0;
+}
+
 @keyframes animatedBackground {
-	from { background-position: 0% 0; }
+	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 }
 @-webkit-keyframes animatedBackground {
@@ -26,60 +31,62 @@ html, body {
 	to { background-position: 100% 0; }
 }
 
-#background	{ 
-	width: 100%; 
-	height: 120%; 
+.content	{
+	width: 111.5vw;
+	font-size: 8.6vw;
+	height: auto;
+	min-height: 100vh;
 	background-image: url(bg-clouds.jpg);
-	background-position: 0px 0px;
-	background-repeat: repeat-x;
-
-	animation: animatedBackground 75s linear infinite;
-	-ms-animation: animatedBackground 75s linear infinite;
-	-moz-animation: animatedBackground 75s linear infinite;
-	-webkit-animation: animatedBackground 75s linear infinite;
+	background-size: cover;
+	/*animation: animatedBackground 30s linear infinite alternate;
+	-ms-animation: animatedBackground 30s linear infinite alternate;
+	-moz-animation: animatedBackground 30s linear infinite alternate;
+	-webkit-animation: animatedBackground 30s linear infinite alternate;*/
 }
 
-
-#text {
-	font-size: 700%;
-	font-style: italic;
-	font-family: arial, sans-serif;
-	color: black;
-	position: relative;
-	top: 5px;
-}
-#text:hover {
-	font-size: 700%;
-	font-style: italic;
-	font-family: arial, sans-serif;
-	color: black;
-	position: relative;
-	top: 5px;
-	background-color:rgba(0,150,150,0);
+#background_lacuna	{
+	background-image: url(bg-clouds.jpg);
+	background-size: cover;
+	animation: animatedBackground 250s linear infinite alternate;
+	-ms-animation: animatedBackground 250s linear infinite alternate;
+	-moz-animation: animatedBackground 250s linear infinite alternate;
+	-webkit-animation: animatedBackground 250s linear infinite alternate;
 }
 
-#menu {
-	font-size: 100%;
-	font-style: italic;
-	font-family: arial, sans-serif;
-	color: black;
-	position: relative;
-	top: 5px;
-}
-#menu:hover {
-	font-size: 100%;
-	font-style: italic;
-	font-family: arial, sans-serif;
-	color: black;
-	position: relative;
-	top: 5px;
-	background-color:rgba(255,255,255,0.5);
-}
+.menu:hover { background-color:rgba(255,255,255,0.3); }
 
-a:link { 
+a {
+	display: block;
 	color: black;
 	text-decoration: none;
+}
+
+a:visited { color: black; }
+
+@media screen and (min-width: 1020px) {
+	#background {
+		background-size: 150vw;
+		/*animation: animatedBackground 20s linear infinite alternate;
+		-ms-animation: animatedBackground 20s linear infinite alternate;
+		-moz-animation: animatedBackground 20s linear infinite alternate;
+		-webkit-animation: animatedBackground 20s linear infinite alternate;*/
 	}
-a:visited { 
-	color: black;
+}
+
+@media screen and (max-width: 1020px) {
+	.menu {
+		font-size: 0.5em;
 	}
+	.menu:hover {
+		font-size: 0.5em;
+	}
+}
+
+@media screen and (max-width: 622px) {
+	.menu {
+		font-size: 28px;
+	}
+	.menu:hover {
+		font-size: 28px;
+	}
+}
